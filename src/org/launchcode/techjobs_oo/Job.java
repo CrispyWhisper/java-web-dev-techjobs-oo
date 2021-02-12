@@ -28,6 +28,13 @@ public class Job {
         this.coreCompetency = coreCompetency;
     }
 
+   // public Job(String test_job, String test_employer, String test_location, String test_position, String test_competency) {
+   // }
+
+    public int getId() {
+        return id;
+    }
+
     public String getName() {
         return name;
     }
